@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+.profile-picture {
+    border: 10px solid #333;
+    border-radius: 50%;
+    float: right;
+    height: 400px;
+    margin: 10px;
+    width: 300px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: ".";
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.skill-box {
+    float: right;
+    padding: 0px 0px;
+    font-size: 1em;
+    color: #333;
+}

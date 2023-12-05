@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 100%; /* Full width on small screens */
+  text-align: center;
+  color: #333;
+  margin-bottom: 0rem; /* Add some space between input and button */
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.response-container {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%; /* Full width on small screens */
+  max-width: 20rem; /* Limit maximum width for larger screens */
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data p {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  input, button, .response-container {
+    width: 80%; /* Adjust the width for smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
+  }
+}
